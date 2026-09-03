@@ -1,0 +1,37 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\rodri\\Downloads\\Taller1\\Prog2_SWITCH\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{FF5013D6-EEA4-2557-4DE2-28356ADE907E}|Prog2_SWITCH\\Prog2_SWITCH.csproj|c:\\users\\rodri\\downloads\\taller1\\prog2_switch\\prog2_switch\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FF5013D6-EEA4-2557-4DE2-28356ADE907E}|Prog2_SWITCH\\Prog2_SWITCH.csproj|solutionrelative:prog2_switch\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\rodri\\Downloads\\Taller1\\Prog2_SWITCH\\Prog2_SWITCH\\Program.cs",
+              "RelativeDocumentMoniker": "Prog2_SWITCH\\Program.cs",
+              "ToolTip": "C:\\Users\\rodri\\Downloads\\Taller1\\Prog2_SWITCH\\Prog2_SWITCH\\Program.cs",
+              "RelativeToolTip": "Prog2_SWITCH\\Program.cs",
+              "ViewState": "AgIAAFwAAAAAAAAAAAAYwEAAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-02T21:33:11.829Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
