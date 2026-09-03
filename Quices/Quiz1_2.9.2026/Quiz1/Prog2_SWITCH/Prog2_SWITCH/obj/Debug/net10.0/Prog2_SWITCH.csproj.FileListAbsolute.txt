@@ -1,0 +1,14 @@
+C:\Users\rodri\Downloads\Taller1\Prog2_SWITCH\Prog2_SWITCH\obj\Debug\net10.0\Prog2_SWITCH.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\rodri\Downloads\Taller1\Prog2_SWITCH\Prog2_SWITCH\obj\Debug\net10.0\Prog2_SWITCH.AssemblyInfoInputs.cache
+C:\Users\rodri\Downloads\Taller1\Prog2_SWITCH\Prog2_SWITCH\obj\Debug\net10.0\Prog2_SWITCH.AssemblyInfo.cs
+C:\Users\rodri\Downloads\Taller1\Prog2_SWITCH\Prog2_SWITCH\obj\Debug\net10.0\Prog2_SWITCH.csproj.CoreCompileInputs.cache
+C:\Users\rodri\Downloads\Taller1\Prog2_SWITCH\Prog2_SWITCH\bin\Debug\net10.0\Prog2_SWITCH.exe
+C:\Users\rodri\Downloads\Taller1\Prog2_SWITCH\Prog2_SWITCH\bin\Debug\net10.0\Prog2_SWITCH.deps.json
+C:\Users\rodri\Downloads\Taller1\Prog2_SWITCH\Prog2_SWITCH\bin\Debug\net10.0\Prog2_SWITCH.runtimeconfig.json
+C:\Users\rodri\Downloads\Taller1\Prog2_SWITCH\Prog2_SWITCH\bin\Debug\net10.0\Prog2_SWITCH.dll
+C:\Users\rodri\Downloads\Taller1\Prog2_SWITCH\Prog2_SWITCH\bin\Debug\net10.0\Prog2_SWITCH.pdb
+C:\Users\rodri\Downloads\Taller1\Prog2_SWITCH\Prog2_SWITCH\obj\Debug\net10.0\Prog2_SWITCH.dll
+C:\Users\rodri\Downloads\Taller1\Prog2_SWITCH\Prog2_SWITCH\obj\Debug\net10.0\refint\Prog2_SWITCH.dll
+C:\Users\rodri\Downloads\Taller1\Prog2_SWITCH\Prog2_SWITCH\obj\Debug\net10.0\Prog2_SWITCH.pdb
+C:\Users\rodri\Downloads\Taller1\Prog2_SWITCH\Prog2_SWITCH\obj\Debug\net10.0\Prog2_SWITCH.genruntimeconfig.cache
+C:\Users\rodri\Downloads\Taller1\Prog2_SWITCH\Prog2_SWITCH\obj\Debug\net10.0\ref\Prog2_SWITCH.dll

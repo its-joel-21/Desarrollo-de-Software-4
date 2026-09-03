@@ -1,0 +1,14 @@
+C:\Users\rodri\Downloads\Taller1\Prog1_IF\Prog1_IF\obj\Debug\net10.0\Prog1_IF.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\rodri\Downloads\Taller1\Prog1_IF\Prog1_IF\obj\Debug\net10.0\Prog1_IF.AssemblyInfoInputs.cache
+C:\Users\rodri\Downloads\Taller1\Prog1_IF\Prog1_IF\obj\Debug\net10.0\Prog1_IF.AssemblyInfo.cs
+C:\Users\rodri\Downloads\Taller1\Prog1_IF\Prog1_IF\obj\Debug\net10.0\Prog1_IF.csproj.CoreCompileInputs.cache
+C:\Users\rodri\Downloads\Taller1\Prog1_IF\Prog1_IF\bin\Debug\net10.0\Prog1_IF.exe
+C:\Users\rodri\Downloads\Taller1\Prog1_IF\Prog1_IF\bin\Debug\net10.0\Prog1_IF.deps.json
+C:\Users\rodri\Downloads\Taller1\Prog1_IF\Prog1_IF\bin\Debug\net10.0\Prog1_IF.runtimeconfig.json
+C:\Users\rodri\Downloads\Taller1\Prog1_IF\Prog1_IF\bin\Debug\net10.0\Prog1_IF.dll
+C:\Users\rodri\Downloads\Taller1\Prog1_IF\Prog1_IF\bin\Debug\net10.0\Prog1_IF.pdb
+C:\Users\rodri\Downloads\Taller1\Prog1_IF\Prog1_IF\obj\Debug\net10.0\Prog1_IF.dll
+C:\Users\rodri\Downloads\Taller1\Prog1_IF\Prog1_IF\obj\Debug\net10.0\refint\Prog1_IF.dll
+C:\Users\rodri\Downloads\Taller1\Prog1_IF\Prog1_IF\obj\Debug\net10.0\Prog1_IF.pdb
+C:\Users\rodri\Downloads\Taller1\Prog1_IF\Prog1_IF\obj\Debug\net10.0\Prog1_IF.genruntimeconfig.cache
+C:\Users\rodri\Downloads\Taller1\Prog1_IF\Prog1_IF\obj\Debug\net10.0\ref\Prog1_IF.dll
