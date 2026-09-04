@@ -1,0 +1,14 @@
+C:\Users\rodri\Downloads\Quiz2\Prog17_ConsumoElectrico\Prog17_ConsumoElectrico\bin\Debug\net10.0\Prog17_ConsumoElectrico.exe
+C:\Users\rodri\Downloads\Quiz2\Prog17_ConsumoElectrico\Prog17_ConsumoElectrico\bin\Debug\net10.0\Prog17_ConsumoElectrico.deps.json
+C:\Users\rodri\Downloads\Quiz2\Prog17_ConsumoElectrico\Prog17_ConsumoElectrico\bin\Debug\net10.0\Prog17_ConsumoElectrico.runtimeconfig.json
+C:\Users\rodri\Downloads\Quiz2\Prog17_ConsumoElectrico\Prog17_ConsumoElectrico\bin\Debug\net10.0\Prog17_ConsumoElectrico.dll
+C:\Users\rodri\Downloads\Quiz2\Prog17_ConsumoElectrico\Prog17_ConsumoElectrico\bin\Debug\net10.0\Prog17_ConsumoElectrico.pdb
+C:\Users\rodri\Downloads\Quiz2\Prog17_ConsumoElectrico\Prog17_ConsumoElectrico\obj\Debug\net10.0\Prog17_ConsumoElectrico.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\rodri\Downloads\Quiz2\Prog17_ConsumoElectrico\Prog17_ConsumoElectrico\obj\Debug\net10.0\Prog17_ConsumoElectrico.AssemblyInfoInputs.cache
+C:\Users\rodri\Downloads\Quiz2\Prog17_ConsumoElectrico\Prog17_ConsumoElectrico\obj\Debug\net10.0\Prog17_ConsumoElectrico.AssemblyInfo.cs
+C:\Users\rodri\Downloads\Quiz2\Prog17_ConsumoElectrico\Prog17_ConsumoElectrico\obj\Debug\net10.0\Prog17_ConsumoElectrico.csproj.CoreCompileInputs.cache
+C:\Users\rodri\Downloads\Quiz2\Prog17_ConsumoElectrico\Prog17_ConsumoElectrico\obj\Debug\net10.0\Prog17_ConsumoElectrico.dll
+C:\Users\rodri\Downloads\Quiz2\Prog17_ConsumoElectrico\Prog17_ConsumoElectrico\obj\Debug\net10.0\refint\Prog17_ConsumoElectrico.dll
+C:\Users\rodri\Downloads\Quiz2\Prog17_ConsumoElectrico\Prog17_ConsumoElectrico\obj\Debug\net10.0\Prog17_ConsumoElectrico.pdb
+C:\Users\rodri\Downloads\Quiz2\Prog17_ConsumoElectrico\Prog17_ConsumoElectrico\obj\Debug\net10.0\Prog17_ConsumoElectrico.genruntimeconfig.cache
+C:\Users\rodri\Downloads\Quiz2\Prog17_ConsumoElectrico\Prog17_ConsumoElectrico\obj\Debug\net10.0\ref\Prog17_ConsumoElectrico.dll

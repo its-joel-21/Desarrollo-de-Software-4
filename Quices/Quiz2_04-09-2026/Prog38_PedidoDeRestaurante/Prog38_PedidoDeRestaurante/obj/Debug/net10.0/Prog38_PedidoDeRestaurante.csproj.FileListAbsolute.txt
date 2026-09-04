@@ -1,0 +1,14 @@
+C:\Users\rodri\Downloads\Quiz2\Prog38_PedidoDeRestaurante\Prog38_PedidoDeRestaurante\bin\Debug\net10.0\Prog38_PedidoDeRestaurante.exe
+C:\Users\rodri\Downloads\Quiz2\Prog38_PedidoDeRestaurante\Prog38_PedidoDeRestaurante\bin\Debug\net10.0\Prog38_PedidoDeRestaurante.deps.json
+C:\Users\rodri\Downloads\Quiz2\Prog38_PedidoDeRestaurante\Prog38_PedidoDeRestaurante\bin\Debug\net10.0\Prog38_PedidoDeRestaurante.runtimeconfig.json
+C:\Users\rodri\Downloads\Quiz2\Prog38_PedidoDeRestaurante\Prog38_PedidoDeRestaurante\bin\Debug\net10.0\Prog38_PedidoDeRestaurante.dll
+C:\Users\rodri\Downloads\Quiz2\Prog38_PedidoDeRestaurante\Prog38_PedidoDeRestaurante\bin\Debug\net10.0\Prog38_PedidoDeRestaurante.pdb
+C:\Users\rodri\Downloads\Quiz2\Prog38_PedidoDeRestaurante\Prog38_PedidoDeRestaurante\obj\Debug\net10.0\Prog38_PedidoDeRestaurante.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\rodri\Downloads\Quiz2\Prog38_PedidoDeRestaurante\Prog38_PedidoDeRestaurante\obj\Debug\net10.0\Prog38_PedidoDeRestaurante.AssemblyInfoInputs.cache
+C:\Users\rodri\Downloads\Quiz2\Prog38_PedidoDeRestaurante\Prog38_PedidoDeRestaurante\obj\Debug\net10.0\Prog38_PedidoDeRestaurante.AssemblyInfo.cs
+C:\Users\rodri\Downloads\Quiz2\Prog38_PedidoDeRestaurante\Prog38_PedidoDeRestaurante\obj\Debug\net10.0\Prog38_PedidoDeRestaurante.csproj.CoreCompileInputs.cache
+C:\Users\rodri\Downloads\Quiz2\Prog38_PedidoDeRestaurante\Prog38_PedidoDeRestaurante\obj\Debug\net10.0\Prog38_PedidoDeRestaurante.dll
+C:\Users\rodri\Downloads\Quiz2\Prog38_PedidoDeRestaurante\Prog38_PedidoDeRestaurante\obj\Debug\net10.0\refint\Prog38_PedidoDeRestaurante.dll
+C:\Users\rodri\Downloads\Quiz2\Prog38_PedidoDeRestaurante\Prog38_PedidoDeRestaurante\obj\Debug\net10.0\Prog38_PedidoDeRestaurante.pdb
+C:\Users\rodri\Downloads\Quiz2\Prog38_PedidoDeRestaurante\Prog38_PedidoDeRestaurante\obj\Debug\net10.0\Prog38_PedidoDeRestaurante.genruntimeconfig.cache
+C:\Users\rodri\Downloads\Quiz2\Prog38_PedidoDeRestaurante\Prog38_PedidoDeRestaurante\obj\Debug\net10.0\ref\Prog38_PedidoDeRestaurante.dll
