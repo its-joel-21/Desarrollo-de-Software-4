@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v10.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v10.0": {
+      "P1_SWITCH_Alvaro.R/1.0.0": {
+        "runtime": {
+          "P1_SWITCH_Alvaro.R.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "P1_SWITCH_Alvaro.R/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

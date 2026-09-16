@@ -1,0 +1,14 @@
+C:\Users\Estudiantes\Downloads\P2_SW4_AlvaroRodriguez\P1_SWITCH_Alvaro.R\P1_SWITCH_Alvaro.R\bin\Debug\net10.0\P1_SWITCH_Alvaro.R.exe
+C:\Users\Estudiantes\Downloads\P2_SW4_AlvaroRodriguez\P1_SWITCH_Alvaro.R\P1_SWITCH_Alvaro.R\bin\Debug\net10.0\P1_SWITCH_Alvaro.R.deps.json
+C:\Users\Estudiantes\Downloads\P2_SW4_AlvaroRodriguez\P1_SWITCH_Alvaro.R\P1_SWITCH_Alvaro.R\bin\Debug\net10.0\P1_SWITCH_Alvaro.R.runtimeconfig.json
+C:\Users\Estudiantes\Downloads\P2_SW4_AlvaroRodriguez\P1_SWITCH_Alvaro.R\P1_SWITCH_Alvaro.R\bin\Debug\net10.0\P1_SWITCH_Alvaro.R.dll
+C:\Users\Estudiantes\Downloads\P2_SW4_AlvaroRodriguez\P1_SWITCH_Alvaro.R\P1_SWITCH_Alvaro.R\bin\Debug\net10.0\P1_SWITCH_Alvaro.R.pdb
+C:\Users\Estudiantes\Downloads\P2_SW4_AlvaroRodriguez\P1_SWITCH_Alvaro.R\P1_SWITCH_Alvaro.R\obj\Debug\net10.0\P1_SWITCH_Alvaro.R.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Estudiantes\Downloads\P2_SW4_AlvaroRodriguez\P1_SWITCH_Alvaro.R\P1_SWITCH_Alvaro.R\obj\Debug\net10.0\P1_SWITCH_Alvaro.R.AssemblyInfoInputs.cache
+C:\Users\Estudiantes\Downloads\P2_SW4_AlvaroRodriguez\P1_SWITCH_Alvaro.R\P1_SWITCH_Alvaro.R\obj\Debug\net10.0\P1_SWITCH_Alvaro.R.AssemblyInfo.cs
+C:\Users\Estudiantes\Downloads\P2_SW4_AlvaroRodriguez\P1_SWITCH_Alvaro.R\P1_SWITCH_Alvaro.R\obj\Debug\net10.0\P1_SWITCH_Alvaro.R.csproj.CoreCompileInputs.cache
+C:\Users\Estudiantes\Downloads\P2_SW4_AlvaroRodriguez\P1_SWITCH_Alvaro.R\P1_SWITCH_Alvaro.R\obj\Debug\net10.0\P1_SWITCH_Alvaro.R.dll
+C:\Users\Estudiantes\Downloads\P2_SW4_AlvaroRodriguez\P1_SWITCH_Alvaro.R\P1_SWITCH_Alvaro.R\obj\Debug\net10.0\refint\P1_SWITCH_Alvaro.R.dll
+C:\Users\Estudiantes\Downloads\P2_SW4_AlvaroRodriguez\P1_SWITCH_Alvaro.R\P1_SWITCH_Alvaro.R\obj\Debug\net10.0\P1_SWITCH_Alvaro.R.pdb
+C:\Users\Estudiantes\Downloads\P2_SW4_AlvaroRodriguez\P1_SWITCH_Alvaro.R\P1_SWITCH_Alvaro.R\obj\Debug\net10.0\P1_SWITCH_Alvaro.R.genruntimeconfig.cache
+C:\Users\Estudiantes\Downloads\P2_SW4_AlvaroRodriguez\P1_SWITCH_Alvaro.R\P1_SWITCH_Alvaro.R\obj\Debug\net10.0\ref\P1_SWITCH_Alvaro.R.dll
