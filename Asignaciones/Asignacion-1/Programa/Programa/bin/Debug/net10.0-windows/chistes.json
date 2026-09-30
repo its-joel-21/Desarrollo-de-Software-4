@@ -1,0 +1,27 @@
+[
+  {
+    "Categoria": "Programming",
+    "Tipo": "single",
+    "Texto": "How do you tell HTML from HTML5?\n- Try it out in Internet Explorer\n- Did it work?\n- No?\n- It's HTML5."
+  },
+  {
+    "Categoria": "Programming",
+    "Tipo": "twopart",
+    "Texto": "Why did the Python data scientist get arrested at customs? — She was caught trying to import pandas!"
+  },
+  {
+    "Categoria": "Programming",
+    "Tipo": "single",
+    "Texto": "Four engineers get into a car. The car won't start.\nThe Mechanical engineer says \"It's a broken starter\".\nThe Electrical engineer says \"Dead battery\".\nThe Chemical engineer says \"Impurities in the gasoline\".\nThe IT engineer says \"Hey guys, I have an idea: How about we all get out of the car and get back in\"."
+  },
+  {
+    "Categoria": "Programming",
+    "Tipo": "twopart",
+    "Texto": "What do you call a group of 8 Hobbits? — A Hobbyte."
+  },
+  {
+    "Categoria": "Programming",
+    "Tipo": "single",
+    "Texto": "If Bill Gates had a dime for every time Windows crashed ... Oh wait, he does."
+  }
+]

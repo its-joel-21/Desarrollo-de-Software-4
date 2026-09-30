@@ -1,0 +1,13 @@
+Programming | single | How do you tell HTML from HTML5?
+- Try it out in Internet Explorer
+- Did it work?
+- No?
+- It's HTML5.
+Programming | twopart | Why did the Python data scientist get arrested at customs? — She was caught trying to import pandas!
+Programming | single | Four engineers get into a car. The car won't start.
+The Mechanical engineer says "It's a broken starter".
+The Electrical engineer says "Dead battery".
+The Chemical engineer says "Impurities in the gasoline".
+The IT engineer says "Hey guys, I have an idea: How about we all get out of the car and get back in".
+Programming | twopart | What do you call a group of 8 Hobbits? — A Hobbyte.
+Programming | single | If Bill Gates had a dime for every time Windows crashed ... Oh wait, he does.
