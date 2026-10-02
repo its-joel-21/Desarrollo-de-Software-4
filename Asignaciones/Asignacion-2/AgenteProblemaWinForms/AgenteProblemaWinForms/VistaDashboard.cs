@@ -3,10 +3,9 @@ using System.Collections.Generic;
 using System.Drawing;
 using System.Drawing.Drawing2D;
 using System.IO;
+using System.Text;
 using System.Text.Json;
 using System.Windows.Forms;
-using QuestPDF.Fluent;
-using QuestPDF.Helpers;
 
 namespace AgenteProblemaWinForms
 {
@@ -26,9 +25,9 @@ namespace AgenteProblemaWinForms
         private Panel panelHitos = null!;
         private Panel panelConsejo = null!;
         private RichTextBox rtbRespuesta = null!;
-        private Button btnDescargarPDF = null!;
+        private Button btnDescargarTXT = null!;
 
-        // guardamos el plan actual para exportarlo a pdf
+        // guardamos el plan actual para exportarlo
         private PlanEstudio? _planActual;
 
         public VistaDashboard()
@@ -36,11 +35,9 @@ namespace AgenteProblemaWinForms
             this.Dock = DockStyle.Fill;
             this.BackColor = colorFondo;
             this.Padding = new Padding(10);
-            QuestPDF.Settings.License = QuestPDF.Infrastructure.LicenseType.Community;
             InicializarComponentes();
         }
 
-        // ============ METODO PUBLICO PARA RECIBIR LA RESPUESTA DE LA IA ============
         // ============ METODO PUBLICO PARA RECIBIR LA RESPUESTA DE LA IA ============
         public void MostrarRespuestaAgente(string texto)
         {
@@ -64,7 +61,6 @@ namespace AgenteProblemaWinForms
                 }
                 else
                 {
-                    // si no es json valido, mostramos el texto crudo
                     _planActual = null;
                     rtbRespuesta.Text = texto;
                 }
@@ -86,14 +82,11 @@ namespace AgenteProblemaWinForms
 
             string t = texto.Trim();
 
-            // quitamos ```json al inicio
             if (t.StartsWith("```json")) t = t.Substring(7).Trim();
             else if (t.StartsWith("```")) t = t.Substring(3).Trim();
 
-            // quitamos ``` al final
             if (t.EndsWith("```")) t = t.Substring(0, t.Length - 3).Trim();
 
-            // buscamos el primer { y el ultimo } por si hay texto extra
             int inicio = t.IndexOf('{');
             int fin = t.LastIndexOf('}');
             if (inicio >= 0 && fin > inicio)
@@ -155,7 +148,6 @@ namespace AgenteProblemaWinForms
             return tarjeta;
         }
 
-        // refresca la lista de materias con datos de la ia
         private void RefrescarMaterias(List<MateriaPlan>? materias)
         {
             listaMaterias.Controls.Clear();
@@ -252,7 +244,6 @@ namespace AgenteProblemaWinForms
             for (int i = 0; i < 6; i++)
                 tablaHorario.RowStyles.Add(new RowStyle(SizeType.Percent, 16.6F));
 
-            // encabezados de los dias (fijos)
             string[] dias = { "Lun", "Mar", "Mié", "Jue", "Vie", "Sáb" };
             for (int i = 0; i < 6; i++)
             {
@@ -266,7 +257,6 @@ namespace AgenteProblemaWinForms
                 }, i, 0);
             }
 
-            // celdas vacias (se rellenaran con RefrescarHorario)
             for (int r = 1; r < 6; r++)
             {
                 for (int c = 0; c < 6; c++)
@@ -287,10 +277,8 @@ namespace AgenteProblemaWinForms
             return tarjeta;
         }
 
-        // refresca el horario con los bloques de la ia
         private void RefrescarHorario(List<BloqueHorario>? horario)
         {
-            // limpiamos las celdas (dejando los encabezados)
             for (int r = 1; r < 6; r++)
             {
                 for (int c = 0; c < 6; c++)
@@ -337,10 +325,10 @@ namespace AgenteProblemaWinForms
                 BackColor = colorFondo,
                 Margin = new Padding(5, 0, 0, 0)
             };
-            cont.RowStyles.Add(new RowStyle(SizeType.Percent, 20F)); // distribucion
-            cont.RowStyles.Add(new RowStyle(SizeType.Percent, 15F)); // hitos
-            cont.RowStyles.Add(new RowStyle(SizeType.Percent, 12F)); // consejo
-            cont.RowStyles.Add(new RowStyle(SizeType.Percent, 53F)); // respuesta + pdf
+            cont.RowStyles.Add(new RowStyle(SizeType.Percent, 20F));
+            cont.RowStyles.Add(new RowStyle(SizeType.Percent, 15F));
+            cont.RowStyles.Add(new RowStyle(SizeType.Percent, 12F));
+            cont.RowStyles.Add(new RowStyle(SizeType.Percent, 53F));
 
             cont.Controls.Add(CrearPanelDistribucion(), 0, 0);
             cont.Controls.Add(CrearPanelHitos(), 0, 1);
@@ -461,7 +449,7 @@ namespace AgenteProblemaWinForms
             });
         }
 
-        // ============ PANEL DE RESPUESTA DEL AGENTE + BOTON PDF ============
+        // ============ PANEL DE RESPUESTA DEL AGENTE + BOTON TXT ============
         private Panel CrearPanelRespuestaAgente()
         {
             Panel tarjeta = CrearTarjeta();
@@ -476,9 +464,9 @@ namespace AgenteProblemaWinForms
                 Height = 22
             };
 
-            btnDescargarPDF = new Button
+            btnDescargarTXT = new Button
             {
-                Text = "⬇  Descargar PDF",
+                Text = "⬇  Descargar TXT",
                 Dock = DockStyle.Bottom,
                 Height = 32,
                 FlatStyle = FlatStyle.Flat,
@@ -487,18 +475,18 @@ namespace AgenteProblemaWinForms
                 ForeColor = Color.White,
                 Cursor = Cursors.Hand
             };
-            btnDescargarPDF.FlatAppearance.BorderSize = 0;
-            btnDescargarPDF.Click += BtnDescargarPDF_Click;
-            btnDescargarPDF.Paint += (s, e) =>
+            btnDescargarTXT.FlatAppearance.BorderSize = 0;
+            btnDescargarTXT.Click += BtnDescargarTXT_Click;
+            btnDescargarTXT.Paint += (s, e) =>
             {
                 e.Graphics.SmoothingMode = SmoothingMode.AntiAlias;
-                var rect = btnDescargarPDF.ClientRectangle;
+                var rect = btnDescargarTXT.ClientRectangle;
                 rect.Width -= 1; rect.Height -= 1;
                 using (var path = CrearRectanguloRedondeado(rect, 6))
-                using (var brush = new SolidBrush(btnDescargarPDF.BackColor))
+                using (var brush = new SolidBrush(btnDescargarTXT.BackColor))
                     e.Graphics.FillPath(brush, path);
-                TextRenderer.DrawText(e.Graphics, btnDescargarPDF.Text, btnDescargarPDF.Font,
-                    btnDescargarPDF.ClientRectangle, btnDescargarPDF.ForeColor,
+                TextRenderer.DrawText(e.Graphics, btnDescargarTXT.Text, btnDescargarTXT.Font,
+                    btnDescargarTXT.ClientRectangle, btnDescargarTXT.ForeColor,
                     TextFormatFlags.HorizontalCenter | TextFormatFlags.VerticalCenter);
             };
 
@@ -514,15 +502,14 @@ namespace AgenteProblemaWinForms
             };
 
             tarjeta.Controls.Add(rtbRespuesta);
-            tarjeta.Controls.Add(btnDescargarPDF);
+            tarjeta.Controls.Add(btnDescargarTXT);
             tarjeta.Controls.Add(lblTitulo);
             return tarjeta;
         }
 
-        // ============ DESCARGA DEL PDF (SIN IMPRESORA) ============
-        private void BtnDescargarPDF_Click(object? sender, EventArgs e)
+        // ============ DESCARGA DEL TXT ============
+        private void BtnDescargarTXT_Click(object? sender, EventArgs e)
         {
-            // validacion real: debe haber plan parseado o texto valido
             bool hayContenido = _planActual != null ||
                 (!string.IsNullOrWhiteSpace(rtbRespuesta.Text) &&
                  rtbRespuesta.Text != "(esperando respuesta del agente...)");
@@ -536,21 +523,20 @@ namespace AgenteProblemaWinForms
 
             using SaveFileDialog sfd = new SaveFileDialog
             {
-                Title = "Guardar plan de estudio como PDF",
-                Filter = "Archivo PDF (*.pdf)|*.pdf",
-                FileName = "plan_estudio_" + DateTime.Now.ToString("yyyyMMdd_HHmm") + ".pdf"
+                Title = "Guardar plan de estudio como TXT",
+                Filter = "Archivo de texto (*.txt)|*.txt",
+                FileName = "plan_estudio_" + DateTime.Now.ToString("yyyyMMdd_HHmm") + ".txt"
             };
 
             if (sfd.ShowDialog() != DialogResult.OK) return;
 
             try
             {
-                GenerarPDF(sfd.FileName);
+                GenerarTXT(sfd.FileName);
 
-                // solo mostramos mensaje si el archivo realmente existe
                 if (File.Exists(sfd.FileName))
                 {
-                    MessageBox.Show("PDF guardado correctamente en:\n" + sfd.FileName,
+                    MessageBox.Show("TXT guardado correctamente en:\n" + sfd.FileName,
                         "Descarga exitosa", MessageBoxButtons.OK, MessageBoxIcon.Information);
                 }
                 else
@@ -561,96 +547,84 @@ namespace AgenteProblemaWinForms
             }
             catch (Exception ex)
             {
-                MessageBox.Show("error al generar el PDF:\n" + ex.Message + "\n\n" + ex.StackTrace,
+                MessageBox.Show("error al generar el TXT:\n" + ex.Message + "\n\n" + ex.StackTrace,
                     "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
         }
 
-        // genera el pdf directamente, sin usar impresora
-        private void GenerarPDF(string ruta)
+        // genera el txt en texto plano formateado
+        private void GenerarTXT(string ruta)
         {
             var plan = _planActual;
             string textoResumen = rtbRespuesta.Text;
 
-            Document.Create(container =>
+            // usamos utf8 para que las tildes y las ñ se guarden correctamente
+            using var writer = new StreamWriter(ruta, false, Encoding.UTF8);
+
+            writer.WriteLine("==================================================");
+            writer.WriteLine("       PLAN DE ESTUDIO PERSONALIZADO");
+            writer.WriteLine("==================================================");
+            writer.WriteLine("Generado el " + DateTime.Now.ToString("dd/MM/yyyy HH:mm"));
+            writer.WriteLine();
+
+            // seccion de materias
+            if (plan?.Materias != null && plan.Materias.Count > 0)
             {
-                container.Page(page =>
+                writer.WriteLine("------ MATERIAS ------");
+                foreach (var m in plan.Materias)
                 {
-                    page.Size(PageSizes.A4);
-                    page.Margin(50);
-                    page.DefaultTextStyle(x => x.FontSize(11).FontFamily("Arial"));
+                    writer.WriteLine($"  • {m.Nombre} — {m.Dificultad}");
+                }
+                writer.WriteLine();
+            }
 
-                    page.Header().Column(col =>
-                    {
-                        col.Item().Text("Plan de Estudio Personalizado")
-                            .FontSize(20).Bold().FontColor(Colors.Blue.Darken2);
-                        col.Item().Text("Generado el " + DateTime.Now.ToString("dd/MM/yyyy HH:mm"))
-                            .FontSize(9).Italic().FontColor(Colors.Grey.Medium);
-                        col.Item().PaddingTop(5).LineHorizontal(1).LineColor(Colors.Grey.Lighten2);
-                    });
+            // seccion de horario
+            if (plan?.Horario != null && plan.Horario.Count > 0)
+            {
+                writer.WriteLine("------ HORARIO SEMANAL ------");
+                string[] dias = { "Lunes", "Martes", "Miércoles", "Jueves", "Viernes", "Sábado" };
+                foreach (var b in plan.Horario)
+                {
+                    string dia = (b.Dia >= 0 && b.Dia < dias.Length) ? dias[b.Dia] : "?";
+                    writer.WriteLine($"  • {dia} (bloque {b.Hora}): {b.Materia}");
+                }
+                writer.WriteLine();
+            }
 
-                    page.Content().PaddingVertical(15).Column(col =>
-                    {
-                        col.Spacing(15);
+            // seccion de distribucion
+            if (plan?.Distribucion != null)
+            {
+                writer.WriteLine("------ DISTRIBUCIÓN DEL TIEMPO ------");
+                writer.WriteLine($"  • Estudio:  {plan.Distribucion.Estudio}%");
+                writer.WriteLine($"  • Descanso: {plan.Distribucion.Descanso}%");
+                writer.WriteLine($"  • Repaso:   {plan.Distribucion.Repaso}%");
+                writer.WriteLine();
+            }
 
-                        // seccion de materias
-                        if (plan?.Materias != null && plan.Materias.Count > 0)
-                        {
-                            col.Item().Text("📚 Materias").FontSize(14).Bold();
-                            foreach (var m in plan.Materias)
-                            {
-                                col.Item().Text($"• {m.Nombre} — {m.Dificultad}").FontSize(10);
-                            }
-                        }
+            // seccion de hitos
+            if (plan?.Hitos != null && plan.Hitos.Count > 0)
+            {
+                writer.WriteLine("------ PRÓXIMOS HITOS ------");
+                foreach (var h in plan.Hitos)
+                    writer.WriteLine($"  • {h}");
+                writer.WriteLine();
+            }
 
-                        // seccion de horario
-                        if (plan?.Horario != null && plan.Horario.Count > 0)
-                        {
-                            col.Item().PaddingTop(10).Text("📅 Horario Semanal").FontSize(14).Bold();
-                            string[] dias = { "Lunes", "Martes", "Miércoles", "Jueves", "Viernes", "Sábado" };
-                            foreach (var b in plan.Horario)
-                            {
-                                string dia = (b.Dia >= 0 && b.Dia < dias.Length) ? dias[b.Dia] : "?";
-                                col.Item().Text($"• {dia} (bloque {b.Hora}): {b.Materia}").FontSize(10);
-                            }
-                        }
+            // consejo
+            if (!string.IsNullOrWhiteSpace(plan?.Consejo))
+            {
+                writer.WriteLine("------ CONSEJO DEL DÍA ------");
+                writer.WriteLine("  " + plan.Consejo);
+                writer.WriteLine();
+            }
 
-                        // seccion de distribucion
-                        if (plan?.Distribucion != null)
-                        {
-                            col.Item().PaddingTop(10).Text("📊 Distribución del Tiempo").FontSize(14).Bold();
-                            col.Item().Text($"• Estudio: {plan.Distribucion.Estudio}%").FontSize(10);
-                            col.Item().Text($"• Descanso: {plan.Distribucion.Descanso}%").FontSize(10);
-                            col.Item().Text($"• Repaso: {plan.Distribucion.Repaso}%").FontSize(10);
-                        }
-
-                        // seccion de hitos
-                        if (plan?.Hitos != null && plan.Hitos.Count > 0)
-                        {
-                            col.Item().PaddingTop(10).Text("🎯 Próximos Hitos").FontSize(14).Bold();
-                            foreach (var h in plan.Hitos)
-                                col.Item().Text($"• {h}").FontSize(10);
-                        }
-
-                        // consejo
-                        if (!string.IsNullOrWhiteSpace(plan?.Consejo))
-                        {
-                            col.Item().PaddingTop(10).Text("💡 Consejo del Día").FontSize(14).Bold();
-                            col.Item().Text(plan.Consejo).FontSize(10).Italic();
-                        }
-
-                        // resumen completo
-                        col.Item().PaddingTop(15).Text("📝 Plan Completo").FontSize(14).Bold();
-                        col.Item().Text(textoResumen).FontSize(10);
-                    });
-
-                    page.Footer().AlignCenter().Text(x =>
-                    {
-                        x.Span("página ").FontSize(9);
-                        x.CurrentPageNumber().FontSize(9);
-                    });
-                });
-            }).GeneratePdf(ruta);
+            // resumen completo
+            writer.WriteLine("------ PLAN COMPLETO ------");
+            writer.WriteLine(textoResumen);
+            writer.WriteLine();
+            writer.WriteLine("==================================================");
+            writer.WriteLine("       FIN DEL DOCUMENTO");
+            writer.WriteLine("==================================================");
         }
 
         // ============ HELPERS ============

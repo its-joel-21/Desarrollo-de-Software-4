@@ -28,7 +28,8 @@ namespace AgenteProblemaWinForms
                 "- hora va de 1 a 5.\n" +
                 "- distribucion debe sumar 100.\n" +
                 "- los colores deben ser hexadecimales válidos (#RRGGBB).\n" +
-                "- si el usuario no especifica materias, invéntalas según su contexto.\n" +
+                "- no inventes materias.\n" +
+                "- RECUERDA absolutamente todo la información que se te da y si se añade adapta lo existente a lo nuevo.\n" +
                 "- NUNCA devuelvas texto fuera del json.";
 
             string promptCompleto = instruccionesBase + "\n" + instrucciones;
