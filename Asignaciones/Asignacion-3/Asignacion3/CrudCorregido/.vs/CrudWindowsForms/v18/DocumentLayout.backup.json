@@ -1,0 +1,98 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\rodri\\Downloads\\Asignacion3\\CrudCorregido\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{A1C0F8A4-7B58-4D7B-9D5E-111111111111}|CrudWindowsForms.csproj|c:\\users\\rodri\\downloads\\asignacion3\\crudcorregido\\forms\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{A1C0F8A4-7B58-4D7B-9D5E-111111111111}|CrudWindowsForms.csproj|solutionrelative:forms\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A1C0F8A4-7B58-4D7B-9D5E-111111111111}|CrudWindowsForms.csproj|c:\\users\\rodri\\downloads\\asignacion3\\crudcorregido\\data\\peopledb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A1C0F8A4-7B58-4D7B-9D5E-111111111111}|CrudWindowsForms.csproj|solutionrelative:data\\peopledb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A1C0F8A4-7B58-4D7B-9D5E-111111111111}|CrudWindowsForms.csproj|c:\\users\\rodri\\downloads\\asignacion3\\crudcorregido\\app.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{A1C0F8A4-7B58-4D7B-9D5E-111111111111}|CrudWindowsForms.csproj|solutionrelative:app.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A1C0F8A4-7B58-4D7B-9D5E-111111111111}|CrudWindowsForms.csproj|c:\\users\\rodri\\downloads\\asignacion3\\crudcorregido\\database\\basedatos.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}",
+      "RelativeMoniker": "D:0:0:{A1C0F8A4-7B58-4D7B-9D5E-111111111111}|CrudWindowsForms.csproj|solutionrelative:database\\basedatos.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A1C0F8A4-7B58-4D7B-9D5E-111111111111}|CrudWindowsForms.csproj|c:\\users\\rodri\\downloads\\asignacion3\\crudcorregido\\database\\basedatos.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}|CodeFrame",
+      "RelativeMoniker": "D:0:0:{A1C0F8A4-7B58-4D7B-9D5E-111111111111}|CrudWindowsForms.csproj|solutionrelative:database\\basedatos.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}|CodeFrame"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 5,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "app.config",
+              "DocumentMoniker": "C:\\Users\\rodri\\Downloads\\Asignacion3\\CrudCorregido\\app.config",
+              "RelativeDocumentMoniker": "app.config",
+              "ToolTip": "C:\\Users\\rodri\\Downloads\\Asignacion3\\CrudCorregido\\app.config",
+              "RelativeToolTip": "app.config",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
+              "WhenOpened": "2026-10-23T05:13:34.798Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{b1e99781-ab81-11d0-b683-00aa00a3ee26}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "BaseDatos.sql ",
+              "DocumentMoniker": "C:\\Users\\rodri\\Downloads\\Asignacion3\\CrudCorregido\\Database\\BaseDatos.sql",
+              "RelativeDocumentMoniker": "Database\\BaseDatos.sql",
+              "ToolTip": "C:\\Users\\rodri\\Downloads\\Asignacion3\\CrudCorregido\\Database\\BaseDatos.sql",
+              "RelativeToolTip": "Database\\BaseDatos.sql",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
+              "WhenOpened": "2026-10-23T05:13:39.159Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "PeopleDB.cs",
+              "DocumentMoniker": "C:\\Users\\rodri\\Downloads\\Asignacion3\\CrudCorregido\\Data\\PeopleDB.cs",
+              "RelativeDocumentMoniker": "Data\\PeopleDB.cs",
+              "ToolTip": "C:\\Users\\rodri\\Downloads\\Asignacion3\\CrudCorregido\\Data\\PeopleDB.cs",
+              "RelativeToolTip": "Data\\PeopleDB.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-23T05:13:24.851Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Form1.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\rodri\\Downloads\\Asignacion3\\CrudCorregido\\Forms\\Form1.cs",
+              "RelativeDocumentMoniker": "Forms\\Form1.cs",
+              "ToolTip": "C:\\Users\\rodri\\Downloads\\Asignacion3\\CrudCorregido\\Forms\\Form1.cs [Design]",
+              "RelativeToolTip": "Forms\\Form1.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-23T05:10:27.508Z",
+              "EditorCaption": " [Design]"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
