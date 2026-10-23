@@ -3,24 +3,16 @@
   "WorkspaceRootPath": "C:\\Users\\rodri\\Downloads\\Asignaci\u00F3n 4\\CrudCorregido\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{A1C0F8A4-7B58-4D7B-9D5E-111111111111}|CrudWindowsForms.csproj|C:\\Users\\rodri\\Downloads\\Asignaci\u00F3n 4\\CrudCorregido\\forms\\interfazprincipal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{A1C0F8A4-7B58-4D7B-9D5E-111111111111}|CrudWindowsForms.csproj|solutionrelative:forms\\interfazprincipal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{A1C0F8A4-7B58-4D7B-9D5E-111111111111}|CrudWindowsForms.csproj|C:\\Users\\rodri\\Downloads\\Asignaci\u00F3n 4\\CrudCorregido\\data\\crud.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A1C0F8A4-7B58-4D7B-9D5E-111111111111}|CrudWindowsForms.csproj|solutionrelative:data\\crud.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A1C0F8A4-7B58-4D7B-9D5E-111111111111}|CrudWindowsForms.csproj|c:\\users\\rodri\\downloads\\asignaci\u00F3n 4\\crudcorregido\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A1C0F8A4-7B58-4D7B-9D5E-111111111111}|CrudWindowsForms.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A1C0F8A4-7B58-4D7B-9D5E-111111111111}|CrudWindowsForms.csproj|C:\\Users\\rodri\\Downloads\\Asignaci\u00F3n 4\\CrudCorregido\\forms\\subinterfaz.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{A1C0F8A4-7B58-4D7B-9D5E-111111111111}|CrudWindowsForms.csproj|solutionrelative:forms\\subinterfaz.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{A1C0F8A4-7B58-4D7B-9D5E-111111111111}|CrudWindowsForms.csproj|C:\\Users\\rodri\\Downloads\\Asignaci\u00F3n 4\\CrudCorregido\\app.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
       "RelativeMoniker": "D:0:0:{A1C0F8A4-7B58-4D7B-9D5E-111111111111}|CrudWindowsForms.csproj|solutionrelative:app.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A1C0F8A4-7B58-4D7B-9D5E-111111111111}|CrudWindowsForms.csproj|C:\\Users\\rodri\\Downloads\\Asignaci\u00F3n 4\\CrudCorregido\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A1C0F8A4-7B58-4D7B-9D5E-111111111111}|CrudWindowsForms.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A1C0F8A4-7B58-4D7B-9D5E-111111111111}|CrudWindowsForms.csproj|C:\\Users\\rodri\\Downloads\\Asignaci\u00F3n 4\\CrudCorregido\\peopledatacontext.dbml||{B465B5AD-8799-4507-B90A-EE29ACF36AF9}|",
@@ -46,17 +38,6 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "SubInterfaz.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\rodri\\Downloads\\Asignaci\u00F3n 4\\CrudCorregido\\Forms\\SubInterfaz.cs",
-              "RelativeDocumentMoniker": "Forms\\SubInterfaz.cs",
-              "ToolTip": "C:\\Users\\rodri\\Downloads\\Asignaci\u00F3n 3\\CrudCorregido\\Forms\\SubInterfaz.cs [Design]",
-              "RelativeToolTip": "..\\..\\Asignaci\u00F3n 3\\CrudCorregido\\Forms\\SubInterfaz.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-10-23T04:56:56.182Z"
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 2,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\rodri\\Downloads\\Asignaci\u00F3n 4\\CrudCorregido\\Program.cs",
@@ -70,31 +51,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "InterfazPrincipal.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\rodri\\Downloads\\Asignaci\u00F3n 4\\CrudCorregido\\Forms\\InterfazPrincipal.cs",
-              "RelativeDocumentMoniker": "Forms\\InterfazPrincipal.cs",
-              "ToolTip": "C:\\Users\\rodri\\Downloads\\Asignaci\u00F3n 4\\CrudCorregido\\Forms\\InterfazPrincipal.cs [Design]",
-              "RelativeToolTip": "Forms\\InterfazPrincipal.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-10-23T04:56:38.229Z",
-              "EditorCaption": " [Design]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 1,
               "Title": "app.config",
               "DocumentMoniker": "C:\\Users\\rodri\\Downloads\\Asignaci\u00F3n 4\\CrudCorregido\\app.config",
               "RelativeDocumentMoniker": "app.config",
               "ToolTip": "C:\\Users\\rodri\\Downloads\\Asignaci\u00F3n 4\\CrudCorregido\\app.config",
               "RelativeToolTip": "app.config",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAVAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAnAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
-              "WhenOpened": "2026-10-23T04:56:21.917Z"
+              "WhenOpened": "2026-10-23T04:56:21.917Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "CRUD.cs",
               "DocumentMoniker": "C:\\Users\\rodri\\Downloads\\Asignaci\u00F3n 4\\CrudCorregido\\Data\\CRUD.cs",
               "RelativeDocumentMoniker": "Data\\CRUD.cs",
@@ -107,7 +77,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 3,
               "Title": "PeopleDataContext.dbml",
               "DocumentMoniker": "C:\\Users\\rodri\\Downloads\\Asignaci\u00F3n 4\\CrudCorregido\\PeopleDataContext.dbml",
               "RelativeDocumentMoniker": "PeopleDataContext.dbml",
